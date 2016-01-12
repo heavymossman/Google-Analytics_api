@@ -1,17 +1,16 @@
 <?php
 
-// this example.php file was last update May 28th 2009, 10:55am NZST
+// 
 
 require_once('analytics_api.php');
 
-// enter your login, password and id into the variables below to try it out
+// enter your login, password and id into the variables below
 
 $login = '';
 $password = '';
 
 // NOTE: the id is in the form ga:12345 and not just 12345
 // if you do e.g. 12345 then no data will be returned
-// read http://www.electrictoolbox.com/get-id-for-google-analytics-api/ for info about how to get this id from the GA web interface
 // or load the accounts (see below) and get it from there
 // if you don't specify an id here, then you'll get the "Badly formatted request to the Google Analytics API..." error message
 $id = '';
